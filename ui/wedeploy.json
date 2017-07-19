@@ -1,0 +1,6 @@
+{
+	"image": "wedeploy/hosting:beta",
+	"env": {
+		"WEDEPLOY_WEB_PATH": "/dist/"
+	}
+}

@@ -1,9 +1,9 @@
 ---
-title: "Getting Started With Ruby"
+title: "Deploying Ruby apps"
 description: "Launch a Ruby application in few steps."
-headerTitle: "Other"
+headerTitle: "Deploy"
 layout: "guide"
-weight: 3
+weight: 4
 ---
 
 ### Ruby

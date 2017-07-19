@@ -3,7 +3,7 @@ title: "Environment variables, new Java service, and multiple custom domains!"
 description: "We shipped some really interesting features recently and we would love to share them with you!"
 date: "Oct 31, 2016"
 author: "Eduardo Lundgren"
-image: "http://wedeploy.com/images/blog/post-2--2.png"
+image: "/images/blog/post-2--2.png"
 layout: "blog"
 ---
 
@@ -37,7 +37,7 @@ In the past, you could only set one custom domain per project. Although that was
 	<img src="../images/blog/post-2--2.png" srcset="../images/blog/post-2--2.png 1x, ../images/blog/post-2--2-2x.png 2x" alt="New Java Service">
 </figure>
 
-If you have any questions, feel free to [contact us.](http://chat.wedeploy.com/)
+If you have any questions, feel free to [contact us.](https://chat.wedeploy.com/)
 
 Happy coding!
 

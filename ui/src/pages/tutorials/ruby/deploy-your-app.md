@@ -23,7 +23,7 @@ git remote add wedeploy http://git.wedeploy.com/<your-project-id>.git
 
 ###### Push first commit
 
-The remote is now set up and you are ready to make your first commit! 
+The remote is now set up and you are ready to make your first commit!
 
 1. `git add .`
 2. `git commit -m "Awesome commit"`
@@ -45,6 +45,6 @@ Give it a few moments and then go to `ruby.<your-project-id>.wedeploy.io` to see
 
 ###### <span class="icon-16-star"></span> Pro Tip
 
-You can always check the status of your deployment by going to the _overview_ section of your project's <a href="http://dashboard.wedeploy.com" target="_blank">dashboard</a>.
+You can always check the status of your deployment by going to the _overview_ section of your project's <a href="https://console.wedeploy.com" target="_blank">console</a>.
 
 </aside>

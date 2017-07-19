@@ -14,7 +14,7 @@ weight: 9
 
 ## Introduction
 
-To make your app accessible right away, WeDeploy makes any project accessible via its project domain, which looks like `<serviceID>.<projectID>.wedeploy.io`. If you have a project named `project` with a service named `web`, the WeDeploy project domain would be `web.project.wedeploy.io`. Every project in WeDeploy supports one or more custom domains.
+To make your app accessible right away, WeDeploy makes any project accessible via its project domain, which looks like `<serviceID>-<projectID>.wedeploy.io`. If you have a project named `project` with a service named `web`, the WeDeploy project domain would be `web-project.wedeploy.io`. Every project in WeDeploy supports one or more custom domains.
 
 </article>
 
@@ -22,10 +22,10 @@ To make your app accessible right away, WeDeploy makes any project accessible vi
 
 ## Configuring custom domains
 
-WeDeploy can help you to configure your own custom domain, like `http://mydomain.com` or `http://www.mydomain.com`.
+WeDeploy can help you to configure your own custom domain, like `https://mydomain.com` or `https://www.mydomain.com`.
 To make a project accessible via one or more non-WeDeploy domain names, you must add custom domain(s) to your project configuration as described below:
 
-1. After create a project on the [dashboard](http://dashboard.wedeploy.com). Go to the project settings page.
+1. After create a project on the [Console](https://console.wedeploy.com). Go to the project settings page.
 2. On custom domain session, add the custom domains related to the project.
 3. Click in Update Project.
 4. Update the domain DNS to point to the project WeDeploy domain (`<projectID>.wedeploy.io`).

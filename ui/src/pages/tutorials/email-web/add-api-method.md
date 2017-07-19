@@ -43,7 +43,7 @@ WeDeploy
 
 In order for your email request to be authorized, you must add your project's unique Master Token.
 
-1. Go to the <a href="http://dashboard.wedeploy.com" target="_blank">WeDeploy dashboard</a>
+1. Go to the <a href="https://console.wedeploy.com" target="_blank">WeDeploy Console</a>
 2. Click on your project
 3. Go to the _Settings_ section
 4. Copy your Master Token
@@ -55,10 +55,6 @@ In order for your email request to be authorized, you must add your project's un
 
 As you can see, the input values from the form are being used as email parameters (from, to, subject, etc). We have a bunch of parameters so you can fully configure your email posts.
 
-Want to see the full list of <a href="http://wedeploy.com/docs/email/sending-email.html" target="_blank">Email Parameters</a>?
+Want to see the full list of <a href="/docs/email/sending-email.html" target="_blank">Email Parameters</a>?
 
 </aside>
-
-
-
-      

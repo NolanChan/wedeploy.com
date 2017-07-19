@@ -13,7 +13,7 @@ weight: 4
 
 ###### container.json
 
-Every service folder must have a `container.json` file that configures the service. Let's add one to our Data Service in the repo we just cloned. 
+Every service folder must have a `container.json` file that configures the service. Let's add one to our Data Service in the repo we just cloned.
 
 1. Open the `tutorial-data-ios` folder in a code editor.
 2. Create a new file inside of the `data` folder and name it `container.json`.
@@ -64,6 +64,6 @@ Another thing you can do with your `api.json` file is add other parameters for t
 ]
 ```
 
-See the full list of possible <a href="http://wedeploy.com/docs/data/configuring-data.html" target="_blank">data configurations</a>.
+See the full list of possible <a href="/docs/data/configuring-data.html" target="_blank">data configurations</a>.
 
 </aside>

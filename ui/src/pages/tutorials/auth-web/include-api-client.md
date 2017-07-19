@@ -22,9 +22,9 @@ To do this, go to `tutorial-auth-web/hosting/` and include this script link at t
 </ul>
 
 ```xml
-<script src="http://cdn.wedeploy.com/api/latest/wedeploy.js"></script>
+<script src="https://cdn.wedeploy.com/api/latest/wedeploy.js"></script>
 ```
 
 
 
-      
+

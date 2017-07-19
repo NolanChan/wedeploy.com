@@ -14,21 +14,22 @@ weight: 3
 
 ## Checking Status
 
-In order to check if an email was sent or not, we can use the email ID, e.g. `123`, and send a `GET` request to `/emails/123/status`.
+In order to check if an email was sent or not, we can use the email ID, e.g. `123`, and request the status in the same way we sent the email.
 
 ```javascript
 WeDeploy
-	.url('http://<serviceID>.<projectID>.wedeploy.io/emails/<emailID>/status')
-	.get()
+	.email('<serviceID>-<projectID>.wedeploy.io')
+	.auth('<your-project-master-token>')
+	.status('<email-id>')
 	.then(function(response) {
-		console.log('Email status:', response.body());
+		console.log('Email status:', response);
 	})
 	.catch(function(error) {
 		// Some error has happened
 	});
 ```
 ```swift
-WeDeploy.email("http://<serviceID>.<projectID>.wedeploy.io")
+WeDeploy.email('<serviceID>-<projectID>.wedeploy.io')
 	.checkEmailStatus(id: "202605176596079530")
 	.then { status in
 		print("Email status: \(status)")
@@ -39,7 +40,7 @@ WeDeploy.email("http://<serviceID>.<projectID>.wedeploy.io")
 ```
 ```text/x-java
 WeDeploy
-	.email("http://<serviceID>.<projectID>.wedeploy.io")
+	.email('<serviceID>-<projectID>.wedeploy.io')
 	.checkEmailStatus("<emailID>")
 	.execute();
 ```

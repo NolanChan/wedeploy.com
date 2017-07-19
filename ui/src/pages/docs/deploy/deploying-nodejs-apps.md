@@ -1,9 +1,9 @@
 ---
-title: "Getting Started With Node.js"
+title: "Deploying Node.js apps"
 description: "Launch a Node.js application in few steps."
-headerTitle: "Other"
+headerTitle: "Deploy"
 layout: "guide"
-weight: 2
+weight: 3
 ---
 
 ### Node.js

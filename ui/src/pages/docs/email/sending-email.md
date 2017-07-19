@@ -16,17 +16,18 @@ weight: 2
 
 We can use the [API Client](docs/intro/using-the-api-client.html) to facilitate the process of sending requests to WeDeploy.
 
-In order to send emails, we have to make a `POST` request to `/emails` passing some required parameters like `from`, `to`, and `subject`:
+In order to send emails, we can simply make a request to the url of our project and include some required parameters like `from`, `to`, and `subject`.
 
 ```javascript
 WeDeploy
-	.url('http://<serviceID>.<projectID>.wedeploy.io/emails')
-	.form('from', 'from@domain.com')
-	.form('to', 'to@domain.com')
-	.form('subject', 'Hi there!')
-	.post()
+	.email('<serviceID>-<projectID>.wedeploy.io')
+	.auth('<your-project-master-token>')
+	.from('from@domain.com')
+	.to('to@domain.com')
+	.subject('Hi there!')
+	.send()
 	.then(function(response) {
-		console.log('Email ID:', response.body());
+		console.log('Email ID:', response);
 	})
 	.catch(function(error) {
 		// Some error has happened
@@ -34,7 +35,7 @@ WeDeploy
 ```
 ```swift
 WeDeploy
-	.email("http://<serviceID>.<projectID>.wedeploy.io")
+	.email('<serviceID>-<projectID>.wedeploy.io')
 	.from(self.username)
 	.to(self.username)
 	.subject("subject")
@@ -49,7 +50,7 @@ WeDeploy
 ```
 ```text/x-java
 WeDeploy
-	.email("http://<serviceID>.<projectID>.wedeploy.io/emails")
+	.email("<serviceID>-<projectID>.wedeploy.io/emails")
 	.from("from@domain.com")
 	.to("to@domain.com")
 	.subject("Hi there!")

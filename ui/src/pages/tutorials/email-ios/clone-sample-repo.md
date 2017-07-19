@@ -13,7 +13,7 @@ weight: 3
 
 First, you'll clone a sample repo that contains the necessary files and directories for deploying a site with Email.
 
-Run this command in your terminal: 
+Run this command in your terminal:
 
 ```
 git clone https://github.com/wedeploy/tutorial-email-ios.git
@@ -32,6 +32,6 @@ your-project
 └── project.json
 ```
 
-You can see a similar file structure in the repo you just cloned. Want to know more about <a href="http://wedeploy.com/docs/intro/configuration-files.html" target="_blank">configuration files</a>?
+You can see a similar file structure in the repo you just cloned. Want to know more about <a href="/docs/intro/configuration-files.html" target="_blank">configuration files</a>?
 
 </aside>

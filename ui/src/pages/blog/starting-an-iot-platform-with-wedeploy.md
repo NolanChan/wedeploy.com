@@ -285,7 +285,7 @@ Please remember I'm a backend developer interested in Systems, so shame on me fo
 Thanks to the WeDeploy team, a JS client is also available. Super cool! You only need to add this script to your page and you're ready to go:
 
 ```text/html
-<script src="http://cdn.wedeploy.com/api/latest/wedeploy.js"></script>
+<script src="https://cdn.wedeploy.com/api/latest/wedeploy.js"></script>
 ```
 
 #### Summary

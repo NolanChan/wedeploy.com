@@ -1,9 +1,9 @@
 ---
-title: "Getting Started With Java"
+title: "Deploying Java apps"
 description: "Launch a Java 8 application in few steps."
-headerTitle: "Other"
+headerTitle: "Deploy"
 layout: "guide"
-weight: 4
+weight: 5
 ---
 
 ### Java

@@ -3,7 +3,7 @@ title: "3 Reasons Why You Should Use Environment Variables"
 description: "There are some really big things coming down the pipe with our Beta release right around the corner, but we just couldn't wait to tell you about something we are really excited about: Environment Variables."
 date: "March 29, 2017"
 author: "Jonni Lundy"
-image: "http://wedeploy.com/images/blog/post-7--0.gif"
+image: "/images/blog/post-7--0.gif"
 layout: "blog"
 ---
 
@@ -34,7 +34,7 @@ WeDeploy Email supplies you with an email service straight out of the box, but w
 
 **See the full list at our [Email Environment Variable Docs](/docs/email/environment-variables.html)**.
 
-That's it! If you have any question, just [shoot us an email](mailto:team@wedeploy.com) or join the conversation on [Slack](http://chat.wedeploy.com/).
+That's it! If you have any question, just [shoot us an email](mailto:team@wedeploy.com) or join the conversation on [Slack](https://chat.wedeploy.com/).
 
 Happy coding! 💻
 

@@ -11,7 +11,7 @@ weight: 4
 
 #### Add Container.json
 
-Every service folder must have a `container.json` file that configures the service. Let's add one to the repo we just cloned. 
+Every service folder must have a `container.json` file that configures the service. Let's add one to the repo we just cloned.
 
 1. Open the `tutorial-nodejs` folder in a code editor
 2. Create a new file named `container.json` inside the `nodejs` folder.
@@ -32,6 +32,6 @@ Every service folder must have a `container.json` file that configures the servi
 
 ###### <span class="icon-16-star"></span> Pro Tip
 
-As you can see above, we added a `hook` in our `container.json` file. Whatever task you put as a `hook` will be completed during the build cycle prior to each deployment. 
+As you can see above, we added a `hook` in our `container.json` file. Whatever task you put as a `hook` will be completed during the build cycle prior to each deployment.
 
 </aside>

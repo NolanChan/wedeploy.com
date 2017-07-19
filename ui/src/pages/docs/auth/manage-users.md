@@ -18,7 +18,7 @@ You create a new user in your WeDeploy project by calling the `createUser` metho
 
 ```javascript
 WeDeploy
-	.auth('http://<serviceID>.<projectID>.wedeploy.io')
+	.auth('https://<serviceID>-<projectID>.wedeploy.io')
 	.createUser({
 		email: 'user@domain.com',
 		password: 'abc'
@@ -32,7 +32,7 @@ WeDeploy
 ```
 ```swift
 WeDeploy
-	.auth("http://<serviceID>.<projectID>.wedeploy.io")
+	.auth('https://<serviceID>-<projectID>.wedeploy.io')
 	.createUser(email: "user@domain.com", password: "abc", name: "somename")
 	.then { user -> Void in
 		// Successfully created.
@@ -55,7 +55,7 @@ WeDeploy
 ## Get current user
 
 ```javascript
-var currentUser = WeDeploy.auth('http://<serviceID>.<projectID>.wedeploy.io').currentUser;
+var currentUser = WeDeploy.auth('https://<serviceID>-<projectID>.wedeploy.io').currentUser;
 
 if (currentUser) {
 	// User is signed in.
@@ -65,7 +65,7 @@ if (currentUser) {
 ```
 ```swift
 WeDeploy
-	.auth("http://<serviceID>.<projectID>.wedeploy.io")
+	.auth('https://<serviceID>-<projectID>.wedeploy.io')
 	.getCurrentUser()
 	.then { user -> Void in
 		// User found.
@@ -89,7 +89,7 @@ WeDeploy
 
 ```javascript
 WeDeploy
-	.auth('http://<serviceID>.<projectID>.wedeploy.io')
+	.auth('https://<serviceID>-<projectID>.wedeploy.io')
 	.getUser(userId)
 	.then(function(user) {
 		// User found.
@@ -100,7 +100,7 @@ WeDeploy
 ```
 ```swift
 WeDeploy
-	.auth("http://<serviceID>.<projectID>.wedeploy.io")
+	.auth('https://<serviceID>-<projectID>.wedeploy.io')
 	.getUser(id: "userId")
 	.then { user -> Void in
 		// User found.
@@ -175,7 +175,7 @@ WeDeploy
 
 ```swift
 WeDeploy
-	.auth("http://<serviceID>.<projectID>.wedeploy.io")
+	.auth('https://<serviceID>-<projectID>.wedeploy.io')
 	.deleteUser(id: "userId")
 	.then { _ -> Void in
 		// Successfully deleted
@@ -200,7 +200,7 @@ WeDeploy
 You can update a user's basic information. For example:
 
 ```javascript
-var currentUser = WeDeploy.auth('http://<serviceID>.<projectID>.wedeploy.io').currentUser;
+var currentUser = WeDeploy.auth('https://<serviceID>-<projectID>.wedeploy.io').currentUser;
 
 currentUser
 	.updateUser({
@@ -218,7 +218,7 @@ currentUser
 ```
 ```swift
 WeDeploy
-	.auth("http://<serviceID>.<projectID>.wedeploy.io")
+	.auth('https://<serviceID>-<projectID>.wedeploy.io')
 	.updateUser(id: "userId" , email: "eleven@hawkinslabs.com", password: "password", name: "Eleven")
 	.then { _ -> Void in
 		// Successfully updated
@@ -238,7 +238,7 @@ WeDeploy
 	.updateUser("userId", fields)
 	.execute();
 ```
-	
+
 </article>
 
 <article id="6">
@@ -249,7 +249,7 @@ You can send a password reset email to a user with the `sendPasswordResetEmail` 
 
 ```javascript
 WeDeploy
-	.auth('http://<serviceID>.<projectID>.wedeploy.io')
+	.auth('https://<serviceID>-<projectID>.wedeploy.io')
 	.sendPasswordResetEmail("user@domain.com")
 	.then(function() {
 		// Email sent.
@@ -260,7 +260,7 @@ WeDeploy
 ```
 ```swift
 WeDeploy
-	.auth("http://<serviceID>.<projectID>.wedeploy.io")
+	.auth('https://<serviceID>-<projectID>.wedeploy.io')
 	.sendPasswordReset(email: "user@domain.com")
 	.then { _ -> Void in
 		// Successfully signed out.
@@ -284,7 +284,7 @@ WeDeploy
 
 ```javascript
 WeDeploy
-	.auth('http://<serviceID>.<projectID>.wedeploy.io')
+	.auth('https://<serviceID>-<projectID>.wedeploy.io')
 	.signOut()
 	.then(function() {
 		// User is signed out.
@@ -295,7 +295,7 @@ WeDeploy
 ```
 ```swift
 WeDeploy
-	.auth("http://<serviceID>.<projectID>.wedeploy.io")
+	.auth('https://<serviceID>-<projectID>.wedeploy.io')
 	.signOut()
 	.then { _ -> Void in
 		// Successfully signed out.

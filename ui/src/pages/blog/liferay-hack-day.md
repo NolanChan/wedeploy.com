@@ -3,7 +3,7 @@ title: "Liferay Hack Day 2017"
 description: "The holiday season is an exciting time. Not only do we get to put all our diets on hold because of the never ending flow of tree shaped cookies and ooey gooey chocolate fudge, but it also means that the annual Liferay engineering retreat is right around the corner."
 date: "Feb 15, 2017"
 author: "Jonni Lundy"
-image: "http://wedeploy.com/images/blog/post-5--0.png"
+image: "/images/blog/post-5--0.png"
 layout: "blog"
 ---
 
@@ -34,7 +34,7 @@ On top of that, this year we encouraged the teams to use WeDeploy to host their 
 
 Nobody wants to walk all the way down to the Game Room to find that the ping pong table is taken. Never fear, Game Room Availability app is here to show you in real time if anyone is using your game.
 
-###### What they used: [WeDeploy™ Hosting](http://wedeploy.com/docs/hosting).
+###### What they used: [WeDeploy™ Hosting](/docs/hosting).
 
 <figure>
 		<img src="../images/blog/post-5--1.png" alt="Game Room Availability">
@@ -44,7 +44,7 @@ Nobody wants to walk all the way down to the Game Room to find that the ping pon
 
 Don't ever come home to a freezing cold house again. Liferay home will learn your habits, track your commute, and automate pretty much anything in your house.
 
-###### What they used: [WeDeploy™ Hosting](http://wedeploy.com/docs/hosting), [WeDeploy™ Data](http://wedeploy.com/docs/data).
+###### What they used: [WeDeploy™ Hosting](/docs/hosting), [WeDeploy™ Data](/docs/data).
 
 <figure>
 	<img src="../images/blog/post-5--2.png" alt="Liferay Home">
@@ -54,7 +54,7 @@ Don't ever come home to a freezing cold house again. Liferay home will learn you
 
 Annoyed by manually checking for fix pack releases for Portal 7.0? This team created an app that fetched the fix pack information and sorted them by component so you easily find what you need.
 
-###### What they used: [WeDeploy™ Hosting](http://wedeploy.com/docs/hosting).
+###### What they used: [WeDeploy™ Hosting](/docs/hosting).
 
 <figure>
 	<img src="../images/blog/post-5--3.png" alt="Release Notes">
@@ -64,7 +64,7 @@ Annoyed by manually checking for fix pack releases for Portal 7.0? This team cre
 
 Don't let the name deceive you, this project was the real deal- and the grand prize winner of the hack day. Using voice recognition, they paved the way for a stellar hands-free-recipe cooking experience.
 
-###### What they used: [WeDeploy™ Hosting](http://wedeploy.com/docs/hosting), [WeDeploy™ Data](http://wedeploy.com/docs/data).
+###### What they used: [WeDeploy™ Hosting](/docs/hosting), [WeDeploy™ Data](/docs/data).
 
 <figure>
 	<img src="../images/blog/post-5--4.png" alt="Chicken Fingers">

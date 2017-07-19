@@ -1,9 +1,9 @@
 ---
-title: "Getting Started With Liferay"
+title: "Deploying Liferay apps"
 description: "Launch a Liferay application in few steps."
-headerTitle: "Other"
+headerTitle: "Deploy"
 layout: "guide"
-weight: 1
+weight: 6
 ---
 
 ### Liferay

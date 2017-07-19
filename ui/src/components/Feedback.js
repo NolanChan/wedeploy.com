@@ -19,7 +19,7 @@ class Feedback extends Component {
 	}
 
 	sendFeedbackToWeDeploy(liked) {
-		return WeDeploy.data('db.wedeploy.wedeploy.io')
+		return WeDeploy.data('db-wedeploy.wedeploy.io')
 			.create('feedback', {
 				liked: liked,
 				url: window.location.href,

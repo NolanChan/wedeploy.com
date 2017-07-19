@@ -3,7 +3,7 @@ title: "A New Way To Learn WeDeploy"
 description: "From the beginning, we knew that great documentation was crucial to successfully sharing WeDeploy with the world."
 date: "April 19, 2017"
 author: "Jonni Lundy"
-image: "http://wedeploy.com/images/blog/post-8--0.png"
+image: "/images/blog/post-8--0.png"
 layout: "blog"
 ---
 
@@ -56,6 +56,6 @@ Like we said above, each tutorial takes you all the way from clone to deploy in 
 
 So what are you waiting for? Unlock the power of WeDeploy by starting one of these tutorials today!
 
-Don't forget to let us know how it goes! You can connect with us on [Twitter](https://twitter.com/wedeploy) or join our community on [Slack](http://chat.wedeploy.com).
+Don't forget to let us know how it goes! You can connect with us on [Twitter](https://twitter.com/wedeploy) or join our community on [Slack](https://chat.wedeploy.com).
 
 </article>

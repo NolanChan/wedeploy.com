@@ -13,7 +13,7 @@ weight: 3
 
 First, you'll clone a sample repo that contains the necessary files and directories for deploying a site with Liferay.
 
-To do this, run the command below in your terminal: 
+To do this, run the command below in your terminal:
 
 ```xml
 git clone https://github.com/wedeploy/tutorial-liferay.git
@@ -34,6 +34,6 @@ your-project
 └── project.json
 ```
 
-Want to know more about <a href="http://wedeploy.com/docs/intro/configuration-files.html" target="_blank">configuration files</a>?
+Want to know more about <a href="/docs/intro/configuration-files.html" target="_blank">configuration files</a>?
 
 </aside>

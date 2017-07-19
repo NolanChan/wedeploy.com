@@ -11,7 +11,7 @@ weight: 4
 
 #### Add Config File
 
-Every service folder must have a `container.json` file that configures the service. Let's add one to our Email Service in the repo we just cloned. 
+Every service folder must have a `container.json` file that configures the service. Let's add one to our Email Service in the repo we just cloned.
 
 1. Open the `tutorial-email-android` folder in a code editor.
 2. Create a new file inside of the `email` folder and name it `container.json`.
@@ -40,6 +40,6 @@ Another thing you can do in your `container.json` file is add environment variab
 }
 ```
 
-See the full list of <a href="http://wedeploy.com/docs/email/environment-variables.html" target="_blank">Environment Variables for Email</a>.
+See the full list of <a href="/docs/email/environment-variables.html" target="_blank">Environment Variables for Email</a>.
 
 </aside>
